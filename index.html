@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Wildlife.com</title>
+    <link rel="icon" href="photo/logo1.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+<header>
+    <div class="btn">
+        <button class="open-btn" onclick="Sidebar()" aria-label="Toggle Sidebar">☰</button>
+    </div>
+    
+    <div class="name_logo">
+        <img class="logo" src="photo/logo.png" alt="World Wildlife logo">
+        <p class="name">World Wildlife</p>
+    </div>
+</header>
+<nav>
+    <div class="sidebar">
+        <a href="index.html"><span class="icon"><i class="fas fa-home"></i></span><span class="menu">Home</span></a>
+        <a href="#"><span class="icon"><i class="fas fa-user"></i></span><span class="menu">About</span></a>
+        <a href="html/news.html"><span class="icon"><i class="fas fa-newspaper"></i></span><span class="menu">News</span></a>
+        <a href="#footer-nav"><span class="icon"><i class="fas fa-envelope"></i></span><span class="menu">Contact</span></a>
+        <img class="qr" src="../photo/qrcode.png" alt="QR Code">
+    </div>
+</nav>    
+<div class="content" id="about">
+    <h1>Welcome to World Wildlife</h1>
+    <p>We share our planet with millions of species of plants and animals - a wondrous variety of wildlife that enriches our lives in so many ways.</p>
+</div>
+<div class="show">
+    <section>
+        <h1>Restoring Balance: Reviving Our Planet's Wildlife for a Thriving Future</h1>
+        <video autoplay muted loop>
+            <source src="photo/zoo.mp4" type="video/mp4">
+        </video>
+        <p><span>This complex web of life provides the natural systems we depend on – giving us essentials like water, clean air, fertile soils, and a stable climate. It gives us food, medicines, and materials, and supports millions of jobs. It also inspires people around the world – making our lives richer in all sorts of ways. 
+
+            But our planet’s wildlife is in crisis – numbers have fallen by more than half since 1970, and species are going extinct at an alarming rate.
+            
+            We need to reverse this loss of nature and create a future where wildlife and people thrive again.</span></p>
+    </section> 
+</div>
+<footer>
+        <nav class="footer-nav" id="footer-nav">
+            <a href="#">Features</a>
+            <a href="#">Blog</a>
+            <a href="#">News</a>
+            <a href="#">Services</a>
+        </nav>
+        <div class="social-links">
+            <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <nav class="footer-nav">
+            <a href="#">Terms</a>
+            <a href="#">About Us</a>
+            <a href="#">Privacy</a>
+            <a href="#">Contact Us</a>
+        </nav>
+        <p>&copy; 2024. All Rights Reserved.</p>
+    </div>
+</footer>
+  
+<script src="js/script.js"></script>
+<script src="https://kit.fontawesome.com/b368d43edc.js" crossorigin="anonymous"></script>
+</body>
+</html>
